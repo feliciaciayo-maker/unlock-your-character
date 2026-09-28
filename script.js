@@ -358,7 +358,7 @@ function renderLoading(){
   `;
 
   setTimeout(()=>{
-    state.step=10;
+    state.step=11;
     render();
   },1350);
 }
