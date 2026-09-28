@@ -1,23 +1,32 @@
-# Unlock Your Character
+# Unlock Your Character — V2
 
-A lightweight classroom self-reflection web game for a **Core Identity** session.
+A playful classroom self-reflection web game for a **Core Identity** session.
 
-## What students do
-1. Enter a name or nickname.
-2. Complete a Personal SWOT reflection:
-   - Core Strength
-   - Boss Battle
-   - Level-Up Opportunity
-   - What Gets in the Way
-3. Complete four identity prompts inspired by an Ikigai-style reflection:
-   - What makes me feel alive?
-   - What am I good at?
-   - What do I care about?
-   - Who do I want to become?
-4. Receive a primary + secondary reflection archetype.
-5. Write one small “next quest” action.
+## What's new in V2
+
+- Students still complete their own Personal SWOT.
+- A new **"Pass the Phone"** stage asks a friend to add:
+  - one strength they see in the student;
+  - one opportunity they think could help the student grow.
+- The final SWOT keeps the **four-box format**, but Strength and Opportunity show both:
+  - **My view**
+  - **Friend's view**
+- The Identity/Ikigai-inspired section is now a **visual mind map**:
+  - ❤️ What makes me feel alive
+  - ⭐ What I'm good at
+  - 🌍 What I care about
+  - 🌱 Who I want to become
+- The student's primary archetype sits **in the center of the mind map** with:
+  - archetype name
+  - tagline
+  - description
+  - secondary archetype
+  - reflection-archetype label
+- Six original local SVG mascot illustrations are included.
+- The interface is more playful and uses pastel color blocks instead of a mostly-white layout.
 
 ## Reflection archetypes
+
 - The Creator
 - The Connector
 - The Explorer
@@ -25,52 +34,76 @@ A lightweight classroom self-reflection web game for a **Core Identity** session
 - The Solver
 - The Nurturer
 
-These are **not psychological diagnoses**. They are a classroom reflection device based on the student's own answers.
+These are a **classroom reflection device**, not a psychological personality diagnosis.
 
 ## Privacy
-This version has **no backend and no database**.
-All answers are processed in the student's browser and are not uploaded anywhere by the website.
+
+This version has:
+- no login;
+- no database;
+- no analytics;
+- no backend.
+
+All answers are processed only in the student's browser and disappear after refresh/restart.
 
 ## Files
-- `index.html` — page structure
-- `style.css` — responsive design
-- `script.js` — quiz logic and scoring
-- `assets/` — optional future character images
 
-## Deploy with GitHub Pages
-1. Create a public repository, for example `unlock-your-character`.
-2. Upload `index.html`, `style.css`, `script.js`, and the `assets` folder to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/(root)**
-5. Click **Save**.
-6. Wait a few minutes.
-7. Your site will normally be available at:
-   `https://YOUR-USERNAME.github.io/unlock-your-character/`
-8. Turn that URL into a QR code and put it on your presentation slide.
+- `index.html`
+- `style.css`
+- `script.js`
+- `assets/creator.svg`
+- `assets/connector.svg`
+- `assets/explorer.svg`
+- `assets/catalyst.svg`
+- `assets/solver.svg`
+- `assets/nurturer.svg`
 
-## Replacing emoji with illustrated characters later
-When you have original PNG/SVG illustrations, put them in `assets/`, then edit the `ARCHETYPES` object in `script.js` and change the result renderer to use `<img>` files instead of emoji.
+## How to update your existing GitHub repo
 
-Recommended file names:
-- `assets/creator.png`
-- `assets/connector.png`
-- `assets/explorer.png`
-- `assets/catalyst.png`
-- `assets/solver.png`
-- `assets/nurturer.png`
+If you're replacing the first version:
 
-## Classroom flow suggestion
-- 3–5 min: intro + scan QR
-- 8–10 min: Level 1 (Personal SWOT)
-- 7–10 min: Level 2 (Identity Map)
-- 3 min: reveal + screenshot
-- 5–10 min: pair/share discussion
+1. Extract this ZIP.
+2. Open your repository:
+   `feliciaciayo-maker/unlock-your-character`
+3. Upload/replace:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+   - the full `assets/` folder
+   - `README.md`
+4. Commit the changes to `main`.
+5. GitHub Pages should rebuild automatically.
+6. Wait around 1–5 minutes and refresh:
+   `https://feliciaciayo-maker.github.io/unlock-your-character/`
 
-Suggested debrief:
-- Did anything in your result surprise you?
-- Which answer felt easiest to write? Which felt hardest?
-- Did your archetype feel accurate today?
+You do **not** need to change the Pages setting again if it is already:
+
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/(root)`
+
+## Suggested classroom flow
+
+1. **Intro + scan QR** — 2–3 min
+2. **My View: Personal SWOT** — 6–8 min
+3. **Pass the Phone: Friend Check** — 3–4 min
+4. **Identity Map** — 5–7 min
+5. **Character reveal + screenshot** — 2–3 min
+6. **Pair/share reflection** — 5–10 min
+
+## Suggested debrief questions
+
+- Did your friend notice a strength you didn't write yourself?
+- Did your friend's opportunity suggestion match what you wrote?
+- Which of the four identity-map branches was easiest to answer?
+- Does your archetype feel accurate **today**?
 - What part of your identity do you want to grow next?
+
+## Important teaching note
+
+The point of the archetype is **not** to label students permanently.
+
+A useful framing is:
+
+> "This result is a snapshot of the patterns in your answers today. Identity grows, changes, and becomes clearer through experience."
+

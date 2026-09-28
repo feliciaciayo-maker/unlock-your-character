@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="The Explorer">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9F0FF"/><stop offset="1" stop-color="#E6E2FF"/></linearGradient></defs>
+<rect width="240" height="240" rx="54" fill="url(#g)"/>
+<circle cx="112" cy="85" r="31" fill="#4E9ED7"/><path d="M70 184c5-45 24-68 43-68 20 0 41 22 46 68" fill="#62B5E8"/>
+<circle cx="101" cy="80" r="4" fill="#253D50"/><circle cx="124" cy="80" r="4" fill="#253D50"/><path d="M103 97c7 5 14 5 21 0" fill="none" stroke="#253D50" stroke-width="4" stroke-linecap="round"/>
+<path d="M73 64c11-28 49-37 74-11-12 4-25 6-39 6-13 0-25-1-35-5z" fill="#FFCE63"/>
+<circle cx="177" cy="91" r="20" fill="#FFF9EF" stroke="#406F92" stroke-width="5"/><circle cx="177" cy="91" r="8" fill="#79BDF2"/><path d="M162 106l-25 28" stroke="#406F92" stroke-width="7" stroke-linecap="round"/>
+<path d="M154 125c17 9 29 25 33 48" fill="none" stroke="#315F80" stroke-width="12" stroke-linecap="round"/>
+<rect x="56" y="124" width="27" height="47" rx="10" fill="#F09A67"/>
+</svg>
